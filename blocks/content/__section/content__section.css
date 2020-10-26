@@ -1,15 +1,19 @@
-.content__section {
+.content .content__section {
   margin-bottom: 92px;
 }
 
+.content .content__section:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 768px) {
-  .content__section {
+  .content .content__section {
     margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .content__section {
+  .content .content__section {
     margin-bottom: 64px;
   }
 }
