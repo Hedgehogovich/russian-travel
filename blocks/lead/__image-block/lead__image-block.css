@@ -1,0 +1,17 @@
+.lead__image-block {
+  width: 100%;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image-block {
+    width: calc(100% + 48px);
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .lead__image-block {
+    width: calc(100% + 32px);
+  }
+}
+

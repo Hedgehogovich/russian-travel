@@ -1,3 +1,12 @@
+.cover {
+  background: url('../../images/dmitrii-vaccinium-22833-unsplash.jpg') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  /* картинка достигает максимальной высоты при заданном значении viewport width для ширины 1280px */
+  height: 58vw;
+  max-height: 740px;
+}
+
 @media screen and (max-width: 1024px) {
   .cover {
     width: calc(100% + 96px);

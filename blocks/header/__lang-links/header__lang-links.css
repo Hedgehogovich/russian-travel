@@ -1,7 +1,9 @@
 .header__lang-links {
   display: flex;
   align-items: flex-end;
-  padding-bottom: 6px;
+  padding: 0 0 6px;
+  margin: 0;
+  list-style: none;
 }
 
 @media screen and (max-width: 520px) {

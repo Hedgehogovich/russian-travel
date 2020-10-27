@@ -2,4 +2,12 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  width: 70%;
+}
+
+@media screen and (max-width: 768px){
+  .intro__list {
+    min-width: 288px;
+    width: 100%;
+  }
 }
