@@ -23,5 +23,6 @@
   .place {
     grid-template-columns: minmax(0, 1fr);
     grid-template-rows: none;
+    row-gap: 32px;
   }
 }
