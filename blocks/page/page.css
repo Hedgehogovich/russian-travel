@@ -6,6 +6,12 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 1024px) {
+  .page {
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .page {
     padding: 28px 24px 24px;
