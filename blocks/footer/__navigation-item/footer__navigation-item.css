@@ -1,7 +1,5 @@
 .footer__navigation-item {
   margin-right: 18px;
-  font-size: 16px;
-  line-height: 1.12;
 }
 
 .footer__navigation-item:last-child {
@@ -12,8 +10,6 @@
   .footer__navigation-item {
     margin-right: 0;
     margin-bottom: 32px;
-    font-size: 24px;
-    line-height: 1;
   }
 
   .footer__navigation-item:last-child {
