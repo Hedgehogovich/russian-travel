@@ -8,7 +8,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 520px) {
   .content__section {
     margin-bottom: 64px;
   }
