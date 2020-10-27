@@ -2,25 +2,26 @@
   background: url('../../images/dmitrii-vaccinium-22833-unsplash.jpg') no-repeat center center;
   background-size: cover;
   width: 100%;
-  /* картинка достигает максимальной высоты при заданном значении viewport width для ширины 1280px */
-  height: 58vw;
-  max-height: 740px;
+  height: 740px;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
     width: calc(100% + 96px);
+    height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
     width: calc(100% + 48px);
+    height: 480px;
   }
 }
 
 @media screen and (max-width: 520px) {
   .cover {
     width: calc(100% + 32px);
+    height: 200px;
   }
 }
